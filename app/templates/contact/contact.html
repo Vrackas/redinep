@@ -1,0 +1,69 @@
+<div class="contact">
+
+    <header-block></header-block>
+
+    <div class="main_header" id="section">
+        <div class="container" layout="row" layout-align="center center">
+            <div><h2>{{'contact' | translate}}</h2>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_section contact">
+        <div class="container">
+            <div>
+
+                <form name="contactForm" novalidate>
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="text" name="name" placeholder="Name" md-autofocus ng-model="vm.form.name">
+                    </md-input-container>
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="text" name="companyName" placeholder="Company name" ng-model="vm.form.companyName">
+                    </md-input-container>
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="text" name="link" placeholder="Web site" ng-model="vm.form.link">
+                    </md-input-container>
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="text" name="phone" placeholder="Phone" ng-model="vm.form.phone">
+                    </md-input-container>
+
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="text" name="theme" placeholder="Theme" ng-model="vm.form.theme">
+                    </md-input-container>
+
+
+                    <md-input-container  md-no-float>
+                        <label> </label>
+                        <textarea md-no-resize  name="message" placeholder="Message"  id="" cols="30" rows="5" ng-model="vm.form.message"></textarea>
+                    </md-input-container>
+
+
+
+                    <div class="send_button">
+                        <button ng-disabled="contactForm.$invalid || contactForm.$pristine" class="main_button primary">
+                            Send
+                        </button>
+                    </div>
+                </form>
+                <div class="address">
+                    <div>
+                        <p>120 Baker Street, London, England W1U 6TU</p>
+                        <a href="tel:+447933817651" class="footer-site__link">+447999055325</a>
+                        <a href="mailto:info@trystocksolutions.com">info@trystocksolutions.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-block></footer-block>
+
+
+</div>

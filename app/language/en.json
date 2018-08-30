@@ -1,0 +1,162 @@
+{
+  "about": "About Us",
+  "contact": "Contact",
+  "language": "en",
+
+  "homepage_title": "Reliable partner with reliable solution",
+  "homepage_solution_detail": "detail",
+  "homepage_solution_item1_title": "ECN",
+  "homepage_solution_item1_text": "A high-tech multi-module product which serves as the basis for the whole system",
+  "homepage_solution_item2_title": "MT4/MT5/API Bridge",
+  "homepage_solution_item2_text": "Highly functional bridges – the ideal solution for all brokers.",
+  "homepage_solution_item3_title": "Liquidity Solutions",
+  "homepage_solution_item3_text": "We offer several options for obtaining high-quality liquidity",
+  "homepage_solution_item4_title": "Trade Settings",
+  "homepage_solution_item4_text": "A wide range of features which provide customers with the ability to customise order execution",
+  "homepage_solution_item5_title": "Provider management",
+  "homepage_solution_item5_text": "Automatic elimination of imbalances in liquidity providers",
+  "homepage_solution_item6_title": "Floating leverage",
+  "homepage_solution_item6_text": "A service which provides customers with a flexible solution for the margin requirements",
+  "homepage_solution_item7_title": "Auto Risk Management",
+  "homepage_solution_item7_text": "An intelligent system for automatic management of the company’s risks",
+  "homepage_solution_item8_title": "API",
+  "homepage_solution_item8_text": "A software interface which allows to trade without the trading terminal",
+  "homepage_solution_item9_title": "Trader’s Room",
+  "homepage_solution_item9_text": "Account control panel or customer accounts, multifunctional, to record the trading activity of your customers",
+  "homepage_solution_item10_title": "CRM",
+  "homepage_solution_item10_text": "A software interface which allows to trade without the trading terminal",
+
+
+  "ecn_text1": "ECN is the main product of the company. Our ECN system is used by companies regulated by FCA, ASIC, EFSA and CySEC.",
+  "ecn_text2": "ECN is a high-tech multi-module, infinitely scalable system that is based on a high-speed communication protocol and is resistant to high-demand architecture. The system was created by the first-grade developers with more than 10 years of experience in creating technologies for the financial markets.",
+  "ecn_text3": "Today, ECN is one of the fastest and most flexible solutions for online trading. We provide brokers with the maximum flexibility in configuring the liquidity, trading tools, risk management rules, order execution methods, etc. Additionally, we provide a high degree of protection from typical problems such as non-market quotes, arbitration and much more.",
+  "ecn_title1": "Why ECN?",
+  "ecn_text4": "Flexible risk management in real time, with the ability to hedge customers, groups of customers, and instruments;",
+  "ecn_text5": "The ability to work with liquidity providers, prime brokers, prime-of-prime brokers or with several providers, with automatic balancing of margin loads;",
+  "ecn_text6": "Ultra high-speed processing of orders (less than 1 ms) with exceptional performance at peak loads;",
+  "ecn_text7": "Full support of MetaTrader 4 and MetaTrader 5;",
+  "ecn_text8": "Liquidity aggregator allows you to combine any number of liquidity providers into a single stream;",
+  "ecn_text9": "The ability to transform the execution of volume-weighted average prices (VWAP) of the external stream;",
+  "ecn_text10": "Additional features for customers, including personal settings for order execution or Market Depth application (Level II);",
+  "ecn_text11": "A high degree of protection from toxic streams, arbitrage and non-market prices.",
+
+  "mt4_text1": "A high-tech bridge between MT4/MT5 and liquidity providers, it serves as a link between MT and AMTS ECN, allowing brokers and their customers to take full advantage of AMTS ECN. The bridge includes a service for individual trade setup through which customers can configure the orders according to their preferences.",
+  "mt4_text2": "Our bridge is fast, stable and flexible, allowing for detailed configuration of different parameters of hedging and overall performance. The bridge does not require a separate MT server, it can be easily run in parallel with other types of accounts and handle a limited number of groups. The bridge connects directly to AMTS ECN and can operate either as a separate provider or with any number of providers connected to the aggregator.",
+  "mt4_title1": "The benefits of AMTS bridge:",
+  "mt4_item1": "Reliability and stability (the bridge works in large companies where trade volumes are measured in tens of billions);",
+  "mt4_item2": "High speed execution of large volumes of data;",
+  "mt4_item3": "Advanced functionality for traders (trade setup is already integrated into the bridge);",
+  "mt4_item4": "Advanced functionality for broker (flexible trading environment settings);",
+  "mt4_item5": "Flexible hedging system (partial hedge of customers, customer groups, or individual instruments);",
+  "mt4_item6": "There is no need for a separate MT server;",
+  "mt4_item7": "A high degree of protection against all typical dealing problems (non-market quotes, arbitrage, etc.).",
+  "mt4_text3": "Bridge AMTS is a necessary part of the system, without which other products will not work. Therefore, bridge rental is a must when cooperating with AMTS Solutions. Rental prices are affordable and they can be found on the following page. Rental of AMTS technologies can greatly simplify the job of a broker by automating most routine tasks and enabling reliable performance.",
+
+
+
+  "liquidity_title1": "Liquidity Solutions",
+  "liquidity_text1": "We can offer brokers several options of obtaining liquidity. Each of the options has its pros and cons, and they all depend on the requirements and possibilities of a given broker. High-quality liquidity is only half the success of the company. Any broker needs to not only provide their clients with a high-quality stream of quotes but also to hedge their orders without losses in speed and quality of execution, which is often a demanding task.",
+  "liquidity_text2": "Our team has over 10 years’ worth of experience working with the liquidity providers. We have overseen the integration of dozens of banks and brokers, and collected a huge statistics on the quality and flow of execution. The performance of our aggregator is based on these statistics,  taking into account all the details and features of a particular provider. To date, there are three basic options for dealing with liquidity: ",
+  "liquidity_list1_item1": "Liquidity collected over the years, through carefully selecting the best providers and adapting to their characteristics;",
+  "liquidity_list1_item2": "Liquidity of any provider selected by a broker;",
+  "liquidity_list1_item3": "Aggregator rental and its connection to any number of liquidity providers.",
+  "liquidity_text3": "Below, we are going to describe in detail the difference between each of these options.",
+  "liquidity_title2": "Our liquidity",
+  "liquidity_text4": "The liquidity offered by us is ideal since this is a high-quality stream with narrow spreads and well-balanced performance. Its collection is being overseen by our main partner, a European regulated broker. This option includes a sufficient number of quality liquidity providers, and its effectiveness is both time-tested as well as proven by multi-billion dollar turnovers.",
+  "liquidity_text5": "A single liquidity provider has several major advantages: ",
+  "liquidity_list2_item1": "No need to deposit funds to each provider and move them between providers in hopes of adjusting imbalances;",
+  "liquidity_list2_item2": "Margin netting requires a fraction of client funds for hedging;",
+  "liquidity_list2_item3": "It eliminates imbalances of open positions from different providers as well as inefficient use of margin.",
+  "liquidity_title3": "A single provider",
+  "liquidity_text6": "This liquidity has the advantages of a single liquidity provider listed in the previous section, but it also has a number of disadvantages: ",
+  "liquidity_list3_item1": "Unreliability of the stream can result in the problems of the provider immediately becoming the problems of the broker;",
+  "liquidity_list3_item2": "It is often not a very dense and smooth stream;",
+  "liquidity_list3_item3": "Normally, it does not have narrow spreads;",
+  "liquidity_list3_item4": "The provider may widen the spreads and worsen execution without the possibility of intervention by the broker.",
+  "liquidity_title4": "Several providers",
+  "liquidity_text7": "This options works in the opposite way – the flow can be tight and even, and the spreads narrow, but there are problems dealing with multiple providers: ",
+  "liquidity_list4_item1": "The need to deposit money to each provider;",
+  "liquidity_list4_item2": "The need to monitor the distribution of open positions and prevent imbalances;",
+  "liquidity_list4_item3": "The need to have more funds for the margin;",
+  "liquidity_list4_item4": "Periodic need to transfer funds between providers.",
+  "liquidity_text8": "In addition to the option with an aggregated flow, we offer free products such as provider management module and monitoring of imbalances. Nevertheless, we believe this option is more difficult and time-consuming for the broker. Broker must consider everything carefully before selecting their own aggregation. Typically, this option is suitable for large companies, while the single provider option suits all brokers, both large companies and startups. This option combines the advantages of all liquidity models.",
+
+
+  "trade_title1": "Trade settings",
+  "trade_text1": "For the convenience of traders, our Solutions provides personal trade settings, a service which allows each client to customise their trades. It's no secret that traders have different preferences in the methodology of order execution – for some, the price is important (so that there would be no slippage); for others, execution takes the top spot (so that there would be no rejections). Some do not want to miss entering a new position under any circumstances while others prefer not to enter, rather than enter with huge slippage. These and many other questions may be solved thanks to our trade settings. Customers do not have to look for other brokers to get what they want, and as a result, they will stay with you.",
+  "trade_title2": "Trade settings allow you to:",
+  "trade_list1_item1": "Record the size of slippage in the order comment section;",
+  "trade_list1_item2": "Enable/disable partial execution of limit orders;",
+  "trade_list1_item3": "Send limit orders as market orders to ensure implementation;",
+  "trade_list1_item4": "Cancel pending orders and the related profits and stops once activation levels enter the gap;",
+  "trade_list1_item5": "Execute market and stop orders as limit orders with limited slippage (stop-limits);",
+  "trade_list1_item6": "Cancel stop orders when gap is larger than a certain number of points;",
+  "trade_list1_item7": "Activate pending orders on the opposite side of the quotes, thus protecting from the spread widening.",
+  "trade_text2": "To provide this service to clients, a broker must implement a page where customers can choose the preferred settings. The service is integrated into the bridge and does not require further development. The service is in high demand and will be a good addition to broker services.",
+  "trade_text3": "Trade settings significantly expand broker’s trading options, but they also include certain execution features, which may come as a surprise to customers. This is why the website page with a description of the settings needs to explain everything in detail, so that customers understand how it works and do not make mistakes.",
+
+
+
+  "provider_text1": "A system which automatically eliminates imbalances in liquidity providers and allows to quickly eliminate imbalances of open positions in accordance with the size of the deposit and other parameters, thus helping avoid stop-outs on the counterparties' accounts.",
+  "provider_text2": "If a broker has chosen the option of using AMTS Aggregator and connecting it to several providers, the broker must oversee the account load of providers and eliminate imbalances of open positions. If the order is opened by a single provider and closed by the other, then the client has no open positions and the broker has two positions. If this process is not regulated, it may gradually cause uncontrollable situation and possible stop-outs in a broker’s account.",
+  "provider_text3": "Some companies use an order closing model from the same provider who opened the orders, though this option has several drawbacks: ",
+  "provider_list1_item1": "If the performance is not impaired, the broker loses profit by closing at the same provider, unless the latter offers a better price;",
+  "provider_list1_item2": "Statistics of customer slippage will be worse since orders are often closed not at the best price, and customer loyalty will decline;",
+  "provider_list1_item3": "Regulated jurisdictions require execution according to the principle of 'Best execution', and closing orders not at the best price breaks this principle, which may lead to fines;",
+  "provider_list1_item4": "Companies prefer not to donate large sums of money.",
+  "provider_text4": "We offer our system which automatically eliminates imbalances, free of charge. Imbalances are eliminated by shifting the provider’s priorities, without any additional costs.",
+
+
+  "floating_text1": "Floating leverage allows the broker to offer customers a more flexible solution on margin requirements, where the leverage size depends on the volume of open positions, thereby improving conditions for customers and reducing the risks of the company.",
+  "floating_text2": "If all customers get a higher leverage, the volumes may become inadequately large, which significantly increases the margin load when hedging and raises the risks of the balance becoming negative. Therefore, brokers often prefer to provide a high leverage only for small deposits, and to gradually reduce it with the growth of deposits.",
+  "floating_text3": "We offer a completely free floating leverage service, where the leverage depends not on the size of the deposit but on the volume of open positions. Broker only needs to adjust the levels and set the leverage size, with the leverage automatically decreasing when the customer uses deposits.",
+  "floating_text4": "This is also a convenient option for customers since large deposits are rarely linked to large leverage, and small deposits can use higher leverage, thus there is no conflict between the broker and the client. Almost all of our partners successfully use this service.",
+
+
+  "auto_risk_text1": "Intelligent system of automatic management of the company’s risks. As its name suggests, auto risk management allows you to fully automate the risk management, eliminating the possibility of the human factor interference, release staff from routine work and improve business efficiency. Also, risk management system allows to avoid all potential risk-based problems when dealing.",
+  "auto_risk_text2": "Risk management is the most difficult and responsible part of the broker, which can both bring a huge profit and destroy the company. We have developed an intelligent system of automatic risk management which controls all the trading processes in the company and automatically makes risk management decisions.",
+  "auto_risk_text3": "The system has a very flexible set of features and allows the broker to use different models of work, ranging from simple notifications on a trade situation to fully automated operations. The product is provided free of charge.",
+
+
+
+  "api_text1": "API is a programming interface for developers, which allows to get quotes, information on the status of accounts, and make transactions directly from ECN, bypassing the trading terminal.",
+  "api_text2": "This interface is designed for technological integration of ECN with the products of other companies – for example, with a variety of trading terminals. It also allows you to implement large-scale algo trading projects required by some investment funds and other institutional clients.",
+  "api_title1": "API allows to:",
+  "api_list1_item1": "Get information about the status of the account;",
+  "api_list1_item2": "Get quotes;",
+  "api_list1_item3": "Make transactions.",
+  "api_text3": "API is available only to institutional clients as part of large-scale projects or agreements. Liquidity or quotes without bridge rental are not provided.",
+
+
+  "trader_room_text1": "Personal Cabinet (Trader's Room) - this is the control panel of the account or accounts for customers, multifunctional, to account for the trading activities of your customers.",
+  "trader_room_title1": "Your customers will be able to:",
+  "trader_room_list1_item1": "Open trading accounts in real time",
+  "trader_room_list1_item2": "Fund your account online",
+  "trader_room_list1_item3": "Initiate withdrawal requests",
+  "trader_room_list1_item4": "Keep track of account balances",
+  "trader_room_list1_item5": "Change personal data and provide documents",
+  "trader_room_list1_item6": "Produce an overview of trade, deposits, and history",
+  "trader_room_list1_item7": "Start chatting and initiate support requests",
+  "trader_room_list1_item8": "And other",
+  "trader_room_text2": "Additional advantages include tools for IB: referral links, banner advertising, automatic form of account opening, the ability to withdraw or transfer funds, as well as the history and analytics of IB accounts.",
+  "trader_room_text3": "As your brokerage operations grow and develop, you can save a huge amount of time and money by enabling your traders to manage information and data that you would have to do manually. The personal cabinet also allows your customers to make deposits online or initiate a request to withdraw money from MT4 accounts.",
+  "trader_room_text4": "All trade issues that require your attention (withdrawal requests, support questions, etc.) will be presented in CRM as a task for one (or several) members of your team. Thus, nothing will ever be lost.",
+  "trader_room_text5": "MT4 Cloud version of the Personal Cabinet provides an opportunity for all your customers to use the Web and Mobile MT4 application for trading without leaving the browser.",
+
+  "crm_text1": "The Personal Cabinet includes a customer relationship management (CRM) system.",
+  "crm_text2": "CRM allows the company to receive notices of potential customers and assign sales agents to them. After registration, employees of the company need only minor interactions with customers: deposits, requests for withdrawal of funds and technical issues. The system will track and record the history of customer actions inside the Personal Area and notify the selected employees of the case if the task requires their attention.",
+  "crm_text3": "CRM can be an excellent tool for speeding up sales and marketing tasks: data can be exported and used for electronic mailings.",
+  "crm_text4": "The interface of the system allows you to send letters by e-mail directly from the system and track all communications. Privileged users can always see how their subordinates perform and analyze any situations related to customers.",
+  "crm_title1": "CRM at the corporate level",
+  "crm_text5": "If you already have a CRM or you want to use one more system, the Personal Cabinet will integrate with it.",
+
+  "about_text1": "Team Trystock Visate Solutions is engaged in the development of brokerage software since the advent of the first bridges for MetaTrader and Utip. Today we work with a limited number of brokers, until we decided to provide our products to all companies interested in brokerage. Today, our technologies are used by large companies with tens of billions of revolutions in many countries of the world."
+
+
+
+
+
+
+
+
+}

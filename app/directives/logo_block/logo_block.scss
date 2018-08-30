@@ -1,0 +1,75 @@
+//directvives style`s
+
+#logo_block{
+  padding: 40px 0;
+  background: transparent;
+  width: 100%;
+  .container{
+    div{
+      .logo_block_item{
+        font-size: 0;
+        line-height: 1;
+        img{
+          height: 50px !important;
+          width: auto;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+
+//media
+
+@media (min-width: 1500px) {
+  #logo_block{
+    .container{
+      width: 800px;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  #logo_block{
+    .container{
+      width: 800px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #logo_block{
+    .container{
+      width: 800px;
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #logo_block{
+    .container{
+      width: 700px;
+    }
+  }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+  #logo_block{
+    .container{
+      width: 500px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  #logo_block{
+    .container{
+      width: 300px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+<div class="homepage">
+
+    <header-block></header-block>
+
+
+    <div class="main_header" id="section">
+        <div class="container" layout="row" layout-align="center center">
+            <div>
+                <h2>{{"homepage_title" |translate}}</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage_section solution">
+        <div class="container" layout="row" layout-align="space-around center" layout-wrap>
+            <div class="solution_item" ng-repeat="item in vm.solutionList">
+                <img src="{{item.image}}" alt="">
+                <h3>{{item.title | translate}}</h3>
+                <p>{{item.text | translate}}</p>
+                <button class="main_button inverted" ui-sref="{{item.link}}">{{'homepage_solution_detail' | translate}}</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="homepage_section take_it">
+        <div class="container" layout="row" layout-align="space-around center">
+            <div></div>
+            <div><span>for free!</span>
+                <h3>Take it everywhere</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores atque, autem eaque
+                    enim eos exercitationem explicabo, fugiat in ipsum laborum odio quos recusandae, repellat
+                    reprehenderit repudiandae similique totam?</p>
+                <button class="main_button inverted">get started</button>
+            </div>
+        </div>
+    </div>
+
+    <!--<logo-block></logo-block>-->
+
+    <div class="homepage_section get_started">
+        <div class="container" layout="row" layout-align="space-around center">
+            <div>
+                <h3>Get started for free</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores atque, autem eaque
+                    enim eos exercitationem explicabo</p></div>
+            <div>
+                <button class="main_button light">get started now</button>
+            </div>
+        </div>
+    </div>
+    <!--<div class="homepage_section get_started">-->
+        <!--<div class="container" layout="row" layout-align="space-around center">-->
+            <!--<div>-->
+                <!--<h3>Get started for free</h3>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores atque, autem eaque-->
+                    <!--enim eos exercitationem explicabo</p></div>-->
+            <!--<div>-->
+                <!--<button class="main_button light">get started now</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+
+
+    <footer-block></footer-block>
+
+
+</div>
