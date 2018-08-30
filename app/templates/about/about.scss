@@ -1,6 +1,39 @@
 .about{
   //template
 
+  header-block{
+    header{
+
+      .header_site_content {
+        .header_site_content_menu {
+          ul{
+            li:nth-child(2){
+
+
+              position: relative;
+              a, span{
+                color: $purple !important;
+              }
+              a:after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 0;
+                background: 0;
+                border: 1.5px solid $purple;
+                display: inline-block;
+                right: 0px;
+              }
+            }
+          }
+
+        }
+
+      }
+
+    }
+  }
+
 
 
 

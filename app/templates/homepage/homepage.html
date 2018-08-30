@@ -3,7 +3,7 @@
     <header-block></header-block>
 
 
-    <div class="main_header" id="section">
+    <div class="main_header">
         <div class="container" layout="row" layout-align="center center">
             <div>
                 <h2>{{"homepage_title" |translate}}</h2>
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="homepage_section solution">
+    <div class="homepage_section solution" id="section" >
         <div class="container" layout="row" layout-align="space-around center" layout-wrap>
             <div class="solution_item" ng-repeat="item in vm.solutionList">
                 <img src="{{item.image}}" alt="">

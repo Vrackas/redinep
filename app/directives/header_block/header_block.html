@@ -5,16 +5,13 @@
                 <a ui-sref="home" class="main-title">logo</a>
             </div>
             <div class="header_site_content_button">
-                <!--<div>-->
-
-                    <!--<button class="main_button primary">try for free</button>-->
-                <!--</div>-->
             </div>
             <div class="header_site_content_menu">
                 <ul>
 
 
 
+                    <li ui-sref="home"><a>{{"home" | translate}}</a></li>
                     <li ui-sref="about"><a>{{"about" | translate}}</a></li>
                     <li ui-sref="contact"><a>{{"contact" | translate}}</a></li>
                     <li ng-click="vm.langOpen('.lang_list')"><span>{{ 'language' | translate }}</span>
@@ -31,8 +28,15 @@
                 <div class="header_wrapper_block" layout="column" layout-align="center space-between">
                     <div class="header_site_content_menu">
                         <ul>
-                            <li><a ui-sref="about">about us</a></li>
-                            <li><a ui-sref="contact">contact</a></li>
+                            <li ui-sref="home"><a>{{"home" | translate}}</a></li>
+                            <li ui-sref="about"><a>{{"about" | translate}}</a></li>
+                            <li ui-sref="contact"><a>{{"contact" | translate}}</a></li>
+                            <li ng-click="vm.langOpen('.lang_list')"><span>{{ 'language' | translate }}</span>
+                                <ul class="lang_list" layout="column">
+                                    <li><span ng-click="vm.changeLang('en')">EN</span></li>
+                                    <li><span ng-click="vm.changeLang('ru')">RUS</span></li>
+                                </ul>
+                            </li>
                             <!--<li><a >pricing</a></li>-->
                             <!--<li><a >support</a></li>-->
                             <!--<li><a >sign in</a></li>-->
