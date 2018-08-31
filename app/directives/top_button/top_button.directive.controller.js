@@ -9,7 +9,7 @@
     TopButtonController.$inject = ['$state'];
 
     function TopButtonController($state) {
-        let vm = this;
+        var vm = this;
 
 
             $(document).ready(function () {
