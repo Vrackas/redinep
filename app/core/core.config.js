@@ -30,7 +30,8 @@
                 url: '/mt4',
                 templateUrl: 'templates/mt4/mt4.html',
                 controller: 'MT4Controller',
-                controllerAs: 'vm'
+                controllerAs: 'vm',
+                cache: false
             })
             .state('liquidity', {
                 url: '/liquidity',

@@ -51,7 +51,7 @@ button:focus {
     background-color: rgba(21, 12, 255, 0.7); }
 
 .main_header {
-  background-image: url("../../content/img/bg_homepage_main.png");
+  background-image: url("../../content/img/bg_main.png");
   background-size: cover;
   background-position: bottom;
   height: 630px;
@@ -174,11 +174,15 @@ button:focus {
     display: inline-block;
     right: 0px; }
 
-.homepage .main_header .container div {
-  width: 630px;
-  padding-top: 120px; }
-  .homepage .main_header .container div h2 {
-    font-size: 65px; }
+.homepage .main_header {
+  background-image: url("../../content/img/bg_homepage_main.png");
+  background-size: cover;
+  background-position: bottom; }
+  .homepage .main_header .container div {
+    width: 630px;
+    padding-top: 120px; }
+    .homepage .main_header .container div h2 {
+      font-size: 65px; }
 
 .homepage .homepage_section {
   height: auto;
@@ -471,13 +475,15 @@ button:focus {
       height: 40px;
       position: absolute;
       right: 0px;
-      top: 28px; }
+      top: 20px; }
       #header_site .header_site_content .header_wrapper .header_wrapper_close .main_button {
         color: #303030;
         width: 36px;
         height: 36px;
         border-radius: 50%;
         padding: 0; }
+        #header_site .header_site_content .header_wrapper .header_wrapper_close .main_button i {
+          font-size: 45px; }
     #header_site .header_site_content .header_wrapper.active {
       transform: translateX(0%);
       transition: transform ease-out 0.3s; }
@@ -669,3 +675,20 @@ button:focus {
 
 .top_button .top_button_click:hover {
   background: #f7b44c; }
+
+.effect_scroll a {
+  box-sizing: border-box;
+  position: relative;
+  padding: 22px;
+  background: linear-gradient(90deg, #4776e6 0%, #8d55e9 100%);
+  border-radius: 50%; }
+  .effect_scroll a i {
+    width: 24px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 5px; }
+  .effect_scroll a i:before {
+    width: 30px;
+    height: 30px; }

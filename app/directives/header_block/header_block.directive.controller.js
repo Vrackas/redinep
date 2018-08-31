@@ -9,7 +9,7 @@
     HeaderBlockController.$inject = ['$state', '$timeout', '$translate'];
 
     function HeaderBlockController($state, $timeout, $translate) {
-        let vm = this;
+        var vm = this;
 
         vm.contentActive = false;
 
@@ -26,7 +26,7 @@
             });
 
             $(document).mouseup(function (e) {
-                let container = $('.header_wrapper');
+                var container = $('.header_wrapper');
                 if (container.has(e.target).length === 0) {
                     container.removeClass('active');
                 }
@@ -59,7 +59,7 @@
             $('body,html').animate({scrollTop: 0}, 1);
             $(window).scroll(function () {
 
-                let wScroll = $(this).scrollTop();
+                var wScroll = $(this).scrollTop();
                 if (window.screen.width >= 993) {
                     // console.log("hi")
                     if (wScroll > $('#section').offset().top - 50) {

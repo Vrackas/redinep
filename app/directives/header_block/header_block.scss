@@ -217,13 +217,16 @@
         height: 40px;
         position: absolute;
         right: 0px;
-        top: 28px;
+        top: 20px;
         .main_button {
           color: #303030;
           width: 36px;
           height: 36px;
           border-radius: 50%;
           padding: 0;
+          i{
+            font-size: 45px;
+          }
         }
       }
 

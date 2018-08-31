@@ -34,6 +34,11 @@
     }
   }
   .main_header {
+    background: {
+      image: url("../../content/img/bg_homepage_main.png");
+      size: cover;
+      position: bottom;
+    }
     .container {
 
       div {

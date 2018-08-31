@@ -5,7 +5,8 @@
         'app.header',
         'app.footer',
         'app.logo',
-        'app.top_button'
+        'app.top_button',
+        'app.effect',
     ]);
 
 })();
