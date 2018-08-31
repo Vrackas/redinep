@@ -1,7 +1,7 @@
 
 body {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $Nunito;
   line-height: 1.42857;
   color: #384656;
 }
@@ -89,7 +89,9 @@ button:focus {
         }
       ;
       }
-
+      div.effect-scroll{
+        padding-top: 0 !important;
+      }
       p {
         font: {
           size: 20px;

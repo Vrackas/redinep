@@ -3,9 +3,10 @@
 #footer_block {
   height: auto;
   width: 100%;
-  background: transparent;
+  background: #373737;
   padding: 40px 0;
-  color: #a8aab1;
+  color: #ffffff;
+  font-family: $Nunito;
   .container {
     .footer_toolbar{
       ul{
@@ -15,12 +16,11 @@
           margin: 7px;
           a{
             font-weight: 600;
-            color: #454549;
             text-transform: uppercase;
             text-decoration: none;
           }
           a:hover{
-            color: rgba(66, 71, 255, 0.85);
+            color: $purple;
           }
         }
       }
