@@ -1,20 +1,19 @@
-.contact{
+.contact {
   //template
 
-  header-block{
-    header{
+  header-block {
+    header {
 
       .header_site_content {
         .header_site_content_menu {
-          ul{
-            li:nth-child(3){
-
+          ul {
+            li:nth-child(3) {
 
               position: relative;
-              a, span{
+              a, span {
                 color: $purple !important;
               }
-              a:after{
+              a:after {
                 content: '';
                 position: absolute;
                 width: 100%;
@@ -34,7 +33,26 @@
     }
   }
 
-
+  .main_header {
+    background: {
+      image: url("../../content/img/bg_contact_main.png");
+    }
+  ;
+  }
+  .main_section {
+    background: {
+      image: url("../../content/img/bg_contact_section.png");
+      size: inherit;
+      repeat: no-repeat;
+      position: top;
+      color: white;
+    }
+    h2{
+      text-align: center;
+      font-size: 30px;
+    }
+  ;
+  }
 
   //media
   @media (min-width: 1500px) {
@@ -60,6 +78,5 @@
   @media (max-width: 540px) {
 
   }
-
 
 }

@@ -13,7 +13,7 @@
     </div>
 
     <div class="homepage_section solution" id="section" >
-        <h2>SERVICES WE PROVIDE</h2>
+        <h2>{{'homepage_solution_title' | translate}}</h2>
         <div class="container" layout="row" layout-align="space-around center" layout-wrap>
             <div class="solution_item" ng-repeat="item in vm.solutionList">
                 <img src="{{item.image}}" alt="">
@@ -41,13 +41,13 @@
     <!--<logo-block></logo-block>-->
 
     <div class="homepage_section get_started">
-        <div class="container" layout="row" layout-align="space-around center">
+        <div class="container" layout="column" layout-align="space-around center">
             <div>
                 <h3>Get started for free</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores atque, autem eaque
                     enim eos exercitationem explicabo</p></div>
             <div>
-                <button class="main_button light">get started now</button>
+                <button class="main_button light">Get Started Now</button>
             </div>
         </div>
     </div>

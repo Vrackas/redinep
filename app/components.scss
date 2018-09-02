@@ -27,7 +27,7 @@ button:focus {
   height: 43px;
   box-sizing: border-box;
   padding: 12px 24px 11px;
-  border-radius: 6px;
+  border-radius: 40px;
   display: inline-block;
   background-color: transparent;
   transition: background-color ease 0.4s;
@@ -61,7 +61,7 @@ button:focus {
 .main_button:hover {
   background-color: rgba(151, 150, 255, 0.68);
   &.primary {
-    background-color: rgba(21, 12, 255, 0.7);
+    background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
 
   }
 }
@@ -89,7 +89,7 @@ button:focus {
         }
       ;
       }
-      div.effect-scroll{
+      div.effect-scroll {
         padding-top: 0 !important;
       }
       p {
@@ -109,7 +109,7 @@ button:focus {
 .main_section {
   .container {
 
-    padding-top: 100px;
+    padding: 100px 0;
   }
 
   &.text {
@@ -139,40 +139,76 @@ button:focus {
   &.contact {
     .container {
       padding-bottom: 40px;
-      .address{
-        width: 300px;
-        div{
-          display: flex;
-          flex-direction: column;
-          justify-content: start;
-          padding: 40px;
-          box-sizing: border-box;
-          a{
-            margin: 8px 0;
-            color: #6760fa;
-            text-decoration: none;
+      .address {
+        div {
+
+          div {
+            width: 300px;
+            height: 160px;
+            border: 2px dashed #e6e6e6;
+            background: white;
+            box-sizing: border-box;
+            margin: 20px 0;
+            div {
+              margin: 0;
+              border: none;
+              h3 {
+                font: {
+                  size: 24px;
+                }
+              ;
+                margin: 35px 0 0;
+              }
+              div {
+                height: 3px !important;
+                width: 45px !important;
+                background: $purple;
+                border: none;
+              }
+              a {
+                margin: 8px 0;
+                color: #6760fa;
+                text-decoration: none;
+              }
+              a:hover {
+                text-decoration: underline;
+              }
+
+            }
+
           }
-          a:hover{
-            text-decoration: underline;
-          }
+
         }
       }
       form {
-        width: 300px;
-        display: flex;
-        align-content: center;
-        flex-direction: column;
+        width: 100%;
         md-input-container {
           margin: 5px 0 !important;
+          width: 300px;
+          input, textarea {
+            background: white;
+            border: 1px solid #e6e6e6;
+            padding: 20px 16px;
+            border-radius: 5px;
+          }
+
+        }
+        md-input-container:nth-child(2),
+        md-input-container:nth-child(5) {
+          margin: 5px 24px !important;
+        }
+        md-input-container:nth-child(6) {
+          width: 100%;
+          textarea {
+            width: 100%;
+          }
         }
 
-        textarea {
-          width: 300px;
-        }
         .send_button {
           display: flex;
           align-self: center;
           flex-direction: column;
+          margin: 0 auto;
         }
 
       }
@@ -181,7 +217,7 @@ button:focus {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      flex-wrap:wrap ;
+      flex-wrap: wrap;
     }
   }
 }
@@ -230,11 +266,78 @@ button:focus {
   .container {
     width: 750px;
   }
+  .main_section {
+    .container {
+
+    }
+    &.contact {
+      .container {
+        .address {
+          div {
+            display: flex;
+            flex-direction: column;
+            div {
+              width: 100%;
+              display: inherit;
+              flex-direction: row;
+              div {
+                flex-direction: column;
+              }
+            }
+
+          }
+        }
+        form {
+          md-input-container {
+            width: 100% !important;
+            //margin: 5px 0 !important;
+          }
+          md-input-container:nth-child(2),
+          md-input-container:nth-child(5) {
+            margin: 5px 0px !important;
+          }
+        }
+
+      }
+    }
+  }
 }
 
 @media (min-width: 540px) and (max-width: 768px) {
   .container {
     width: 500px;
+  }
+  .main_section {
+    .container {
+
+    }
+    &.contact {
+      .container {
+        .address {
+          div {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            div {
+              width: 100%;
+
+            }
+
+          }
+        }
+        form {
+          md-input-container {
+            width: 100% !important;
+            //margin: 5px 0 !important;
+          }
+          md-input-container:nth-child(2),
+          md-input-container:nth-child(5) {
+            margin: 5px 0px !important;
+          }
+        }
+
+      }
+    }
   }
 }
 
@@ -249,6 +352,33 @@ button:focus {
         p, li {
           text-align: justify;
         }
+      }
+    }
+    &.contact {
+      .container {
+        .address {
+          div {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            div {
+              width: 100%;
+
+            }
+
+          }
+        }
+        form {
+          md-input-container {
+            width: 100% !important;
+            //margin: 5px 0 !important;
+          }
+          md-input-container:nth-child(2),
+          md-input-container:nth-child(5) {
+            margin: 5px 0px !important;
+          }
+        }
+
       }
     }
   }
