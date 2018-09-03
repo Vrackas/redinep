@@ -105,6 +105,18 @@
                 controller: 'PolicyController',
                 controllerAs: 'vm'
             })
+            .state('privacy', {
+                url: '/privacy',
+                templateUrl: 'templates/privacy/privacy.html',
+                controller: 'PrivacyController',
+                controllerAs: 'vm'
+            })
+            .state('kyc', {
+                url: '/kyc',
+                templateUrl: 'templates/kyc/kyc.html',
+                controller: 'KYCController',
+                controllerAs: 'vm'
+            });
 
 
         // $locationProvider.html5Mode(true);
