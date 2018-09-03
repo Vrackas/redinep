@@ -103,6 +103,8 @@ button:focus {
     .main_section.contact .container .address div div div {
       margin: 0;
       border: none; }
+      .main_section.contact .container .address div div div img {
+        height: 80px; }
       .main_section.contact .container .address div div div h3 {
         font-size: 24px;
         margin: 35px 0 0; }
