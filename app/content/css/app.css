@@ -473,6 +473,8 @@ button:focus {
     #header_site .header_site_content .header_site_content_logo a {
       color: #ffffff;
       text-transform: uppercase; }
+      #header_site .header_site_content .header_site_content_logo a img {
+        height: 50px; }
   #header_site .header_site_content .header_site_content_menu {
     float: right; }
     #header_site .header_site_content .header_site_content_menu ul {
