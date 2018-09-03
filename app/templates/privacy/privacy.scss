@@ -1,8 +1,5 @@
-.privacy{
+.privacy {
   //template
-
-
-
 
   //media
   @media (min-width: 1500px) {
@@ -10,24 +7,75 @@
   }
 
   @media (min-width: 1200px) and (max-width: 1500px) {
+    .main_header {
+      .container{
+        div{
+          width: initial !important;
+        }
+      }
 
+
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1200px) {
+    .main_header {
+      .container{
+        div{
+          width: initial !important;
+        }
+      }
 
+
+    }
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
+    .main_header {
+      .container{
+        div{
+          width: initial !important;
+          h2{
+            font-size: 55px;
+          }
+        }
+      }
 
+
+    }
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
+    .main_header {
+      .container{
+        width: initial !important;
+        div{
+          width: initial !important;
+          h2{
+            font-size: 42px;
+          }
+        }
+      }
 
+
+    }
   }
 
   @media (max-width: 540px) {
+    .main_header {
+      .container{
+        width: initial !important;
+        div{
+          width: initial !important;
+          h2{
+            font-size: 25px;
+            margin-bottom: 200px;
+          }
+        }
+      }
 
+
+    }
   }
-
 
 }

@@ -307,12 +307,6 @@ button:focus {
         .homepage .take_it .container div:nth-child(2) p {
           line-height: 23px;
           margin-bottom: 40px; }
-        .homepage .take_it .container div:nth-child(2) button {
-          border: none;
-          text-transform: none;
-          font-size: 25px;
-          width: auto;
-          padding-top: 9px; }
   .homepage .get_started {
     padding: 150px 0; }
     .homepage .get_started .container {
@@ -431,6 +425,37 @@ button:focus {
   .contact .main_section h2 {
     text-align: center;
     font-size: 30px; }
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .privacy .main_header .container div {
+    width: initial !important; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .privacy .main_header .container div {
+    width: initial !important; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .privacy .main_header .container div {
+    width: initial !important; }
+    .privacy .main_header .container div h2 {
+      font-size: 55px; } }
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .privacy .main_header .container {
+    width: initial !important; }
+    .privacy .main_header .container div {
+      width: initial !important; }
+      .privacy .main_header .container div h2 {
+        font-size: 42px; } }
+
+@media (max-width: 540px) {
+  .privacy .main_header .container {
+    width: initial !important; }
+    .privacy .main_header .container div {
+      width: initial !important; }
+      .privacy .main_header .container div h2 {
+        font-size: 25px;
+        margin-bottom: 200px; } }
 
 #header_site {
   transition: .8s;

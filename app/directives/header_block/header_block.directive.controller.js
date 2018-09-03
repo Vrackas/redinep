@@ -60,7 +60,7 @@
             $(window).scroll(function () {
 
                 var wScroll = $(this).scrollTop();
-                if (window.screen.width >= 993) {
+                if (window.screen.width >= 993)     {
                     // console.log("hi")
                     if (wScroll > $('#section').offset().top - 50) {
                         $('#header_site').addClass('active')
