@@ -99,6 +99,12 @@
                 controller: 'TermsController',
                 controllerAs: 'vm'
             })
+            .state('policy', {
+                url: '/policy',
+                templateUrl: 'templates/policy/policy.html',
+                controller: 'PolicyController',
+                controllerAs: 'vm'
+            })
 
 
         // $locationProvider.html5Mode(true);
