@@ -104,6 +104,8 @@
   }
   & .take_it {
     width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     height: 620px;
     background: {
       color: white;
@@ -114,6 +116,10 @@
   ;
     .container {
       width: 100% !important;
+      max-width: 1440px;
+      background: {
+        color: white;
+      };
       div:nth-child(1) {
         background: {
           image: url("../../content/img/homepage_pc.png");
@@ -144,6 +150,7 @@
         }
         button {
           border: none;
+
           text-transform: none;
           font-size: 25px;
           width: auto;

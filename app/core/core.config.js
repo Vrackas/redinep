@@ -93,6 +93,12 @@
                 controller: 'TraderRoomController',
                 controllerAs: 'vm'
             })
+            .state('terms', {
+                url: '/terms',
+                templateUrl: 'templates/terms/terms.html',
+                controller: 'TermsController',
+                controllerAs: 'vm'
+            })
 
 
         // $locationProvider.html5Mode(true);

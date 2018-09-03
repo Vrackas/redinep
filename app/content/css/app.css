@@ -275,13 +275,17 @@ button:focus {
       opacity: 1; }
   .homepage .take_it {
     width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     height: 620px;
     background-color: white;
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center; }
     .homepage .take_it .container {
-      width: 100% !important; }
+      width: 100% !important;
+      max-width: 1440px;
+      background-color: white; }
       .homepage .take_it .container div:nth-child(1) {
         background-image: url("../../content/img/homepage_pc.png");
         width: 50%;
@@ -694,11 +698,16 @@ button:focus {
     #footer_block .container .footer_toolbar ul li {
       margin: 7px; }
       #footer_block .container .footer_toolbar ul li a {
+        color: white;
         font-weight: 600;
         text-transform: uppercase;
         text-decoration: none; }
       #footer_block .container .footer_toolbar ul li a:hover {
         color: #8675fe; }
+  #footer_block .container .footer_text {
+    text-align: center; }
+    #footer_block .container .footer_text p {
+      margin-top: 25px; }
   #footer_block .container .footer_container .footer_copyright {
     margin-top: 30px; }
     #footer_block .container .footer_container .footer_copyright p {

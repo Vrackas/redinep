@@ -4,7 +4,15 @@
   "contact": "Contact",
   "language": "EN",
 
+
+  "footer_terms": "Terms of service",
+  "footer_policy": "Company policy",
+  "footer_privacy": "Privacy",
+  "footer_kyc": "KYC",
+  "footer_text": "© 2018.  CUARTOROOM ™ .The trademark belongs to the company BRAVO CAPITAL LTD and BRAVO CAPITAL EUROPE OU",
+
   "homepage_title": "Reliable partner with reliable solution",
+  "homepage_get_started": "Get Started",
   "homepage_solution_title": "SERVICES WE PROVIDE",
   "homepage_solution_detail": "Detail",
   "homepage_solution_item1_title": "ECN",
@@ -27,6 +35,9 @@
   "homepage_solution_item9_text": "Account control panel or customer accounts, multifunctional, to record the trading activity of your customers",
   "homepage_solution_item10_title": "CRM",
   "homepage_solution_item10_text": "A software interface which allows to trade without the trading terminal",
+  "homepage_take_it_title": "Trader's room",
+  "homepage_take_it_text": "The Trader's room is designed for the Client and the Company including the interaction between their trading accounts",
+
 
 
   "ecn_text1": "ECN is the main product of the company. Our ECN system is used by companies regulated by FCA, ASIC, EFSA and CySEC.",
@@ -152,9 +163,49 @@
   "crm_title1": "CRM at the corporate level",
   "crm_text5": "If you already have a CRM or you want to use one more system, the Personal Cabinet will integrate with it.",
 
-  "about_text1": "Team Trystock Visate Solutions is engaged in the development of brokerage software since the advent of the first bridges for MetaTrader and Utip. Today we work with a limited number of brokers, until we decided to provide our products to all companies interested in brokerage. Today, our technologies are used by large companies with tens of billions of revolutions in many countries of the world."
+  "about_text1": "Team Trystock Visate Solutions is engaged in the development of brokerage software since the advent of the first bridges for MetaTrader and Utip. Today we work with a limited number of brokers, until we decided to provide our products to all companies interested in brokerage. Today, our technologies are used by large companies with tens of billions of revolutions in many countries of the world.",
 
 
+  "terms_content_title": "The contract offer",
+  "terms_text_1": "Consulting company 'CUARTOROOM', in the face of the website www.cuartoroom.org (hereinafter the SELLER), publishes the present contract is a public contract-offer to address both physical and legal persons (hereinafter-the BUYER) of the following:",
+  "terms_title_1": "1. The subject of the contract",
+  "terms_text_1_1": "1.1 by this agreement the Seller undertakes to provide buyer the following services (hereinafter the Services):",
+  "terms_li_1": "Tax planning and structuring on an international level;",
+  "terms_li_2": "Registration of offshore and European companies;",
+  "terms_li_3": "Opening of accounts in any foreign banks;",
+  "terms_li_4": "Services legal and accounting support;",
+  "terms_li_5": "Licensing of business activities in onshore and offshore areas.",
+  "terms_text_1_2": "1.2 the Seller is obliged to provide Services as specified in contract size and term, the Buyer is obliged to pay specified in the contract to the Seller cost.",
+  "terms_title_2": "2. The rights and obligations of the buyer",
+  "terms_text_2_1": "2.1 the Buyer shall:(i) provide within 30 calendar days from the date of conclusion of the contract the necessary documentation for the provision of services in electronic or in original form;(ii) notify the Seller at the time of conclusion of the contract or execution of the contract on circumstances that may affect the provision of services by the Seller;(iii) In the case that the parties are informed in writing agreed to reimburse the seller for necessary expenses related to the provision of services;(iv) prior To conclusion of the Contract to familiarize yourself with the contents, terms of payment and delivery of ordered services, specified and prescribed separately in the contract between the parties;(v) to Provide accurate information about yourself (name, contact numbers, email address) and the address for delivery of documents;(vi) to Accept and pay for the Service specified in this Contract.",
+  "terms_text_2_2": "2.2 the buyer&#39;s Right:(i) to obtain information from the Seller about the delivery of services according to the provided request;(ii) Provide Seller with additional and/or clarifying information for the execution of the contract.",
+  "terms_title_3": "3. The rights and obligations of the Seller",
+  "terms_text_3_1": "3.1 the Seller shall:(i) to provide services to a Trustee personally and/or through its employees;(ii) When providing services to start in the first place from information or documents trusted, as well as their professional knowledge;(iii) immediately notify the buyer of any circumstances that affect or may significantly affect the provision of services or require the Seller to deviate from the rules, or cause the Buyer to change;(iv) notify the Buyer about the circumstances that cause a conflict of interest between the Buyer and the Seller;(v) Provide the Buyer the possibility of obtaining initial free phone consultation at the numbers listed on the website or by email. The consultations shall be limited to the specific issues associated with the performance of Services.",
+  "terms_text_3_2": "3.2 Rights Of The Seller:(i) to Appoint the terms and way of services, guided by the preferences of the Buyer;(ii) to Obtain specified in the contract cost for the provision of services;(iii) the Purchaser reserves the right to amend this Agreement unilaterally until its conclusion.",
+  "terms_title_4": "4. Fees and recovery of costs",
+  "terms_text_4_1": "4.1 For the services provided the buyer pays the Seller a fee (hereinafter Fee), according to the price list or terms specified between the parties concluded a written agreement (a Verbal agreement can be considered to have legal force if it is not prohibited by the legislation of the UK).",
+  "terms_text_4_2": "4.2 the Buyer must pay the Seller according to the invoice he invoice for (5 days) from the date of exhibiting the account.",
+  "terms_text_4_3": "4.3 the fee includes all associated costs of Seller in connection with the provision of services, regardless of the date of origination costs. In addition to the fee, the Seller may only claim documented expenses, which the parties previously agreed in writing.",
+  "terms_text_4_4": "4.4 In the event that the Buyer fulfilled the duties according to the contract, but the Seller in turn terminates the contract before the end of the service, the seller has the right to claim a fee for services rendered at the time of termination, an exception, if the services provided cannot be used without the rest of.",
+  "terms_text_4_5": "4.5 the Buyer is entitled to get paid for the Service amount if he abandoned her within 5 days from the day of filing, only if the Service was not already partially or fully provided by the Seller.",
+  "terms_title_5": "5. Responsibility",
+  "terms_text_5_1": "5.1 the Parties shall bear liability for nonperformance or improper performance of this Agreement in the manner provided in this Agreement and applicable law UK",
+  "terms_text_5_2": "5.2 the Seller shall not be responsible for the delivery of Services if the Buyer specified an incorrect delivery address.",
+  "terms_text_5_3": "5.3 the Seller shall not be responsible if the Bank decides to refuse the client in opening an account.",
+  "terms_text_5_4": "5.4 the Seller shall not be responsible for partial or complete failure to fulfill obligations for the delivery of documents, if they result from force majeure.",
+  "terms_text_5_5": "5.5. The buyer, processing Service is responsible for the accuracy of the information provided about yourself, and confirms that the terms of this Agreement, have read and agree.",
+  "terms_title_6": "6. Privacy policy",
+  "terms_text_6_1": "6.1 the Parties undertake not to disclose any private information, the contract, its terms and conditions and the information obtained in the course of execution of the agreement and shall not provide access to this information to third parties, except cases stipulated by the legislation of the UK or the written agreement of the parties.",
+  "terms_title_7": "7. Force majeure",
+  "terms_text_7_1": "7.1 the Parties are released from liability for nonperformance or improper performance of obligations under the Contract for the duration of the force majeure. Under force majeure refers to extraordinary and insuperable circumstances that impede the fulfillment of their obligations by the Parties under this Agreement. They include natural phenomena (earthquakes, floods, etc.), circumstances of public life (war, state of emergency, the largest strikes, epidemics, etc p.), prohibitive measures of public authorities (prohibition of transportation, currency restrictions, international sanctions ban the trade, etc.). During this time, the Parties have mutual claims, and each party assumes its own risk the consequences of force majeure.",
+  "terms_title_8": "8. Amendment of the agreement",
+  "terms_text_8_1": "8.1 to make changes to the contract are possible only by mutual and written agreement of the parties.",
+  "terms_title_9": "9. Dispute resolution",
+  "terms_text_9_1": "9.1 All disputes arising from the performance of obligations under this Agreement shall be resolved through negotiations. In case of impossibility of their elimination, the parties have the right to seek judicial protection of their interests.",
+  "terms_title_10": "10. The agreement and the time of the contract",
+  "terms_text_10_1": "10.1 this Agreement shall come into force from the moment of contacting a Consulting company 'CUARTOROOM' and Ordering, and ends with the full performance of the obligations by the Parties.",
+  "terms_text_10_2": "10.2 the Fact of Ordering the Service from the Seller, both independently and through the operator by phone, is unconditional acceptance of this Contract, and the BUYER is considered as a person who has entered with the Consulting company 'CUARTOROOM' in the contractual relationship.",
+  "terms_text_10_3": "10.3 the Fact of Ordering the Service from the Seller, both independently and through the operator by phone, is unconditional acceptance of this Contract, and BUYER considered as a person who entered with the Consulting company 'CUARTOROOM' in the contractual relationship."
 
 
 
